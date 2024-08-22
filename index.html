@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration Form </title>
+</head>
+<body>
+<!-- Form View -->
+    <section>
+        <header>
+            <h1> Student Registration </h1>
+            <p> Please Fill Out The Form Below to Register As A Student </p>
+        </header>
+        <main>
+            <form action="">
+                <div>
+                    <label for="fullNM"> Full Name </label>
+                    <input type="text" name="full name" id="fullNM" required>
+                </div>
+                <div>
+                    <label for="Email"> Email</label>
+                    <input type="email" name="Email" id="Email" required>
+                </div>
+                <div>
+                    <label for="DOB"> Date Of Birth </label>
+                    <input type="date" name="Date" id="DOB">
+                </div>
+                <div>
+                    <label for="PNM"> Phone Number </label>
+                    <input type="number" name="Number" id="PNM" required>
+                </div>
+                <div>
+                    <h4>Gender</h4>
+                    <label for="gen"> Male </label>
+                    <input type="radio" name="Gender" id="gen" value="Male">
+
+                    <label for="gen"> Female </label>
+                    <input type="radio" name="Gender" id="gen" value="Female">
+                </div>
+                <div>
+                    <h4> Courses </h4>
+                    <label for="course"> HTML </label>
+                    <input type="checkbox" name="html" id="course">
+
+                    <label for="course"> CSS </label>
+                    <input type="checkbox" name="CSS" id="course">
+
+                    <label for="course"> JavaScript </label>
+                    <input type="checkbox" name="python" id="course"><br><br>
+
+                </div>
+                <div>
+                    <label for="COM"> Comments </label>
+                    <textarea name="comments" id="COM" ></textarea><br><br>
+                </div>
+
+                <div>
+                    <label for="submit"> Register </label>
+                    <input type="submit" id="DOB" value="Click">
+                </div>
+            </form>
+            <br><br><br><br>
+        </main>
+    </section>
+
+    <!-- Table View -->
+
+    <section>
+        <table border="1" cellpadding="10px">
+            <thead>
+                <tr>
+                    <th colspan="5"> Student Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Student ID </td>
+                    <td colspan="4"> </td>
+                </tr>
+                <tr>
+                    <td> Full Name </td>
+                    <td colspan="4"> </td>
+                </tr>
+                <tr>
+                    <td> Email </td>
+                    <td colspan="4"> </td>
+                </tr>
+                <tr>
+                    <td> Date Of Birth </td>
+                    <td colspan="4"> </td>
+                </tr>
+                <tr>
+                    <td> Phone Number </td>
+                    <td colspan="4"> </td>
+                </tr>
+                <tr>
+                    <td> Gender </td>
+                    <td colspan="4"> </td>
+                </tr>
+                <tr>
+                    <td> Courses Interested </td>
+                    <td colspan="4" > </td>
+
+                </tr>
+        
+            </tbody>
+
+        </table>
+    </section>
+    
+</body>
+</html>
